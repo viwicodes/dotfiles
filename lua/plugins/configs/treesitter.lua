@@ -1,5 +1,5 @@
 local options = {
-  ensure_installed = { "lua" },
+  ensure_installed = "maintained",
 
   highlight = {
     enable = true,
@@ -7,6 +7,10 @@ local options = {
   },
 
   indent = { enable = true },
+  context_commentstring = {
+    enable = true,
+    enable_autocmd = false,
+  },
 }
 
 return options
