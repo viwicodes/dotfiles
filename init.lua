@@ -7,6 +7,8 @@ if custom_init_path then
 end
 
 require("core.utils").load_mappings()
+-- require("base46").toggle_theme()
+-- require("base46").toggle_transperency()
 
 local lazypath = vim.fn.stdpath "data" .. "/lazy/lazy.nvim"
 
